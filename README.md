@@ -35,12 +35,11 @@ Fraudulent transactions represent a very small fraction of total transactions, w
     - `0` → Legitimate
     - `1` → Fraud
 
-> ⚠️ **Note:** The dataset is not included in this repository due to file size constraints. Please download it separately from Kaggle.
 
 ---
 
 ## 🛠️ Technologies & Tools Used
-- Python 🐍
+- Python 
 - Jupyter Notebook
 - NumPy
 - Pandas
@@ -80,46 +79,68 @@ Accuracy alone is not a reliable metric for fraud detection problems.
 
 ## 🚀 How to Run the Project
 
-### 1.Clone the Repository
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/CreditCardFraudDetection.git
+```
 
-### 2.Navigate to the Project Directory
+---
+
+### 2️⃣ Navigate to the Project Directory
 ```bash
 cd CreditCardFraudDetection
+```
 
-3️⃣ Install Required Libraries
+---
+
+### 3️⃣ Install Required Libraries
+
 
 Make sure Python is installed, then run:
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn jupyter
+```
 
-4️⃣ Download the Dataset
+---
+
+### 4️⃣ Download the Dataset
 
 Download creditcard.csv from Kaggle
 
-Place the file in the project root directory
+Place it in the project root directory
 
-5️⃣ Run the Jupyter Notebook
+---
+
+### 5️⃣ Run the Jupyter Notebook
+```bash
 jupyter notebook CreditCardFraudDetection.ipynb
+```
 
-📌 Results
+---
+
+
+## 📌 Results
 
 The model demonstrates strong performance in detecting fraudulent transactions, especially when sampling techniques are applied. Oversampling improves recall, while undersampling reduces training time. A comparison of both approaches is included in the notebook.
 
+---
 
-📁 Project Structure
-├── CreditCardFraudDetection.ipynb
-├── README.md
-└── creditcard.csv
+## 📁 Project Structure
+├── CreditCardFraudDetection.ipynb  
+├── README.md  
+└── creditcard.csv  
 
-👤 Author
+---
 
-Kushal Uppala
-Computer Science Engineering (AI & ML)
-Aspiring Data Scientist
+## 👤 Author
 
-⭐ Acknowledgements
+Kushal Uppala  
+Computer Science Engineering(AI&ML)
+
+
+---
+
+## ⭐ Acknowledgements
 
 Kaggle for providing the dataset
 
